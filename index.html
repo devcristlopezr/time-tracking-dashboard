@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+
+    <title>Frontend Mentor | Time tracking dashboard</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <main class="container">
+      <div class="profile_card round_border bg-dark-blue">
+        <div class="profile_card__header round_border">
+          <img class="profile_picture" src="images/image-jeremy.png" alt="Profile Picture" />
+          <h1 class="profile_title"><span>Report for</span>Jeremy Robson</h1>
+        </div>
+        <div class="profile_card__data round_border">
+          <p class="button" id="daily">Daily</p>
+          <p class="button" id="weekly">Weekly</p>
+          <p class="button" id="monthly">Monthly</p>
+        </div>
+      </div>
+      <div class="statistics_card work round_border">
+        <div class="statistics_card__data bg-dark-blue round_border">
+          <div class="flex_between_items_center">
+            <h2 class="card_title">Work</h2>
+            <img class="icon-ellipsis" src="images/icon-ellipsis.svg" alt="" />
+          </div>
+          <div class="flex_between_items_center flex-column">
+            <p class="card_time"></p>
+            <p class="card_previous_time"></p>
+          </div>
+        </div>
+      </div>
+      <div class="statistics_card play round_border">
+        <div class="statistics_card__data bg-dark-blue round_border">
+          <div class="flex_between_items_center">
+            <h2 class="card_title">Play</h2>
+            <img class="icon-ellipsis" src="images/icon-ellipsis.svg" alt="" />
+          </div>
+          <div class="flex_between_items_center flex-column">
+            <p class="card_time"></p>
+            <p class="card_previous_time"></p>
+          </div>
+        </div>
+      </div>
+      <div class="statistics_card study round_border">
+        <div class="statistics_card__data bg-dark-blue round_border">
+          <div class="flex_between_items_center">
+            <h2 class="card_title">Study</h2>
+            <img class="icon-ellipsis" src="images/icon-ellipsis.svg" alt="" />
+          </div>
+          <div class="flex_between_items_center flex-column">
+            <p class="card_time"></p>
+            <p class="card_previous_time"></p>
+          </div>
+        </div>
+      </div>
+      <div class="statistics_card exercise round_border">
+        <div class="statistics_card__data bg-dark-blue round_border">
+          <div class="flex_between_items_center">
+            <h2 class="card_title">Exercise</h2>
+            <img class="icon-ellipsis" src="images/icon-ellipsis.svg" alt="" />
+          </div>
+          <div class="flex_between_items_center flex-column">
+            <p class="card_time"></p>
+            <p class="card_previous_time"></p>
+          </div>
+        </div>
+      </div>
+      <div class="statistics_card social round_border">
+        <div class="statistics_card__data bg-dark-blue round_border">
+          <div class="flex_between_items_center">
+            <h2 class="card_title">Social</h2>
+            <img class="icon-ellipsis" src="images/icon-ellipsis.svg" alt="" />
+          </div>
+          <div class="flex_between_items_center flex-column">
+            <p class="card_time"></p>
+            <p class="card_previous_time"></p>
+          </div>
+        </div>
+      </div>
+      <div class="statistics_card self-care round_border">
+        <div class="statistics_card__data bg-dark-blue round_border">
+          <div class="flex_between_items_center">
+            <h2 class="card_title">Self Care</h2>
+            <img class="icon-ellipsis" src="images/icon-ellipsis.svg" alt="" />
+          </div>
+          <div class="flex_between_items_center flex-column">
+            <p class="card_time"></p>
+            <p class="card_previous_time"></p>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
